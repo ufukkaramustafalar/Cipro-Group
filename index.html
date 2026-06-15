@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CIPRO | Coming Soon</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    min-height:100vh;
+    font-family:Arial, Helvetica, sans-serif;
+    background:
+        linear-gradient(rgba(247,239,224,.88), rgba(247,239,224,.88)),
+        url("https://antrakt.pro/sites/cipro/web/assets/img/banner.jpg");
+    background-size:cover;
+    background-position:center;
+    color:#2b2b2b;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    overflow:hidden;
+}
+
+.page{
+    width:100%;
+    min-height:100vh;
+    position:relative;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:40px 20px;
+}
+
+.page:before{
+    content:"";
+    position:absolute;
+    width:520px;
+    height:520px;
+    border:1px solid #c5a14d;
+    border-radius:50%;
+    top:-260px;
+    left:-180px;
+    opacity:.9;
+}
+
+.page:after{
+    content:"";
+    position:absolute;
+    width:620px;
+    height:620px;
+    border:1px solid #c5a14d;
+    border-radius:50%;
+    right:-280px;
+    bottom:-260px;
+    opacity:.9;
+}
+
+.gold-wave{
+    position:absolute;
+    left:0;
+    bottom:0;
+    width:100%;
+    height:150px;
+    background:#c5a14d;
+    border-radius:55% 55% 0 0 / 45% 45% 0 0;
+}
+
+.content{
+    position:relative;
+    z-index:2;
+    max-width:850px;
+}
+
+.logo{
+    max-width:460px;
+    width:80%;
+    margin-bottom:45px;
+}
+
+.line{
+    width:95px;
+    height:1px;
+    background:#c5a14d;
+    margin:0 auto 38px;
+}
+
+h1{
+    font-size:58px;
+    letter-spacing:18px;
+    font-weight:400;
+    color:#c5a14d;
+    margin-bottom:28px;
+}
+
+p{
+    font-size:20px;
+    line-height:1.7;
+    color:#333;
+    margin-bottom:40px;
+}
+
+.contact{
+    display:flex;
+    justify-content:center;
+    gap:34px;
+    flex-wrap:wrap;
+    font-size:18px;
+    color:#333;
+}
+
+.contact a{
+    color:#333;
+    text-decoration:none;
+}
+
+.contact span{
+    color:#c5a14d;
+    font-weight:bold;
+}
+
+@media(max-width:768px){
+    h1{
+        font-size:34px;
+        letter-spacing:9px;
+    }
+
+    p{
+        font-size:17px;
+    }
+
+    .logo{
+        max-width:330px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="page">
+    <div class="content">
+
+        <img src="cipro-logo.png" alt="CIPRO" class="logo">
+
+        <div class="line"></div>
+
+        <h1>COMING SOON</h1>
+
+        <p>
+            Web sitemiz çok yakında yayında olacak.<br>
+            Yeni deneyim için son hazırlıklarımızı tamamlıyoruz.
+        </p>
+
+        <div class="line"></div>
+
+        <div class="contact">
+            <a href="mailto:info@ciprogroup.com"><span>✉</span> info@ciprogroup.com</a>
+            <a href="https://www.instagram.com/ciprogroup" target="_blank"><span>◎</span> @ciprogroup</a>
+        </div>
+
+    </div>
+
+    <div class="gold-wave"></div>
+</div>
+
+</body>
+</html>
